@@ -101,6 +101,7 @@ def testNet (hLayer, oLayer, testData):
 	return accuracy
 
 if __name__ == "__main__":
+	```
 	trainData1 = fileReader("./mnist_train_0_1.csv")
 	testData1 = fileReader("./mnist_test_0_1.csv")
 	trainData2 = fileReader("./mnist_train_0_4.csv")
@@ -110,3 +111,5 @@ if __name__ == "__main__":
 	net2 = runNet(trainData2)
 	#print("outlayer info: ", net[1].activation, net[1].weights)
 	print(testNet(net2[0], net2[1], testData2))
+	```
+	print("hello world I'm learning to use git on the terminal")
